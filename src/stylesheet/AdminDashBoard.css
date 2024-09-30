@@ -1,0 +1,78 @@
+.admin-dashboard-container{
+    background-color: pink;
+    height: 100vh;
+    /* display: flex; */
+}
+.admin-item-container{
+    display: flex;
+}
+.admin-dashboard-container h1{
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    color: rgb(45, 45, 207);
+    font-family:'Times New Roman', Times, serif;
+}
+.admin-details{
+    box-sizing: border-box;
+    background-color: #282A35;
+    color: #FFF4A3;
+    border-radius: 15px;
+    width: 320px;
+    height: 42vh;
+    padding: 10px 0 10px 30px;
+    margin: 40px 0 0 220px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.admin-details #about-admin{
+    text-decoration: underline;
+    font-weight: 600;
+    color: goldenrod;
+    font-size: large;
+    text-align: center;
+}
+#admin-details-update{
+    padding: 8px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #04AA6D;
+    color: #fff;
+}
+#admin-details-update:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.adminDashboard-container{
+    display: flex;
+    
+}
+.admin-create-quiz{
+    margin: 40px 0 0 150px;
+    box-sizing: border-box;
+    background-color: #282A35;
+    color: #FFF4A3;
+    border-radius: 15px;
+    width: 320px;
+    height: 40vh;
+    padding: 10px 0 10px 30px;
+    margin: 40px 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.admin-create-quiz button{
+    padding: 8px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #04AA6D;
+    color: #fff;
+    margin: 20px 70px;
+    cursor: pointer;
+}
+.admin-create-quiz #view-user-btn{
+    margin-left: 55px;
+    margin-top: 0px;
+}
+.admin-create-quiz button:hover{
+    background-color: #0fe496;
+}

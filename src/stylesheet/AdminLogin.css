@@ -1,0 +1,59 @@
+body{
+    background-color:#282A35 ;
+}
+.admin-container{
+    /* background-color: rgb(108, 132, 135); */
+    background-color: whitesmoke;
+    height: 420px;
+    width: 350px;
+    margin: 6% auto;
+    border-radius: 8px;
+    padding: 10px 60px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 4px 4px rgb(228, 71, 233); */
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+.admin-container h1{
+    color: rgba(240, 46, 170, 0.8) ;
+}
+.admin-container-item label{
+    display: block;
+    font-weight: 700;
+    margin-top: 6px ;
+    color: purple;
+}
+.admin-container-item input{
+    width: 90%;
+    outline: none;
+    border: none;
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 5px;
+    background-color: rgb(190, 183, 183);
+    /* color: white; */
+}
+.admin-button button{
+    background-color: #008CBA;
+    color: #fff;
+    padding: 10px 12px;
+    width: 94%;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.admin-button button:hover{
+    background-color: #08ade4
+}
+.admin-span{
+    color: red;
+    margin-left: 2px;
+    display: block;
+}
+.admin-signup-text:hover{
+    color: blue;
+    text-decoration: underline;
+}
